@@ -1,0 +1,17 @@
+
+[package]
+name = "fed-grid-institutional-ultimate"
+version = "2.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio-tungstenite = "0.20"
+futures-util = "0.3"
+dotenv = "0.15"
+uuid = { version = "1", features = ["v4"] }
+sqlx = { version = "0.7", features = ["postgres", "runtime-tokio"] }
+redis = "0.23"

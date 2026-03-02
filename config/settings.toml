@@ -1,0 +1,6 @@
+
+[system]
+mode = "institutional"
+gpu = true
+cluster = true
+fpga = true
